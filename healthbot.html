@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Doctor Plus a Medical Category Flat bootstrap Responsive website </title>
+<link href="css/bootstrap.css" type="text/css" rel="stylesheet" media="all">
+<link href="css/style.css" type="text/css" rel="stylesheet" media="all">
+<!-- Custom Theme files -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Doctor Plus Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template, 
+	Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!-- //Custom Theme files -->
+<!-- js -->
+<script src="js/jquery-1.11.1.min.js"></script> 
+<!-- //js -->	
+<!-- start-smoth-scrolling-->
+<script type="text/javascript" src="js/move-top.js"></script>
+<script type="text/javascript" src="js/easing.js"></script>	
+<script type="text/javascript">
+		jQuery(document).ready(function($) {
+			$(".scroll").click(function(event){		
+				event.preventDefault();
+				$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+			});
+		});
+</script>
+<style>
+    /* Chat container */
+    .chat-container {
+        border-color: rgb(170, 80, 255);
+      width: 1000px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #f6f6f6;
+      border-radius: 5px;
+    
+    }
+
+
+  body {
+      background-image: url("assets/images/botbg.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+    }
+
+
+
+
+    .welcome-heading {
+      text-align: center;
+      font-size: 24px;
+      margin-bottom: 20px;
+    }
+  </style>
+
+</head>
+<body>
+	<!--header-->
+	<div class="header">
+		<div class="container">
+			<div class="header-logo">
+				<a href="index.html"><img src="images/logo.png" alt="logo"/></a>					
+			</div>
+			<div class="header-info">
+				<p>Information Service:</p>
+				<h4>074-1569-2258</h4>
+			</div>			
+			<div class="clearfix"> </div>
+		</div>	
+	</div>
+	<!--//header-->
+	<!--header-bottom-->
+	<div class="header-bottom">
+		<div class="container">
+			<!--top-nav-->
+			<div class="top-nav cl-effect-5">
+				<span class="menu-icon"><img src="images/menu-icon.png" alt=""/></span>		
+				<ul class="nav1">
+					<li><a href="index.html" class="active"><span data-hover="Home">Home</span></a></li>
+					<li><a href="about.html"> <span data-hover="About">About</span></a></li>
+					<li><a href="services.html"> <span data-hover="Services">Services</span></a></li>
+					<li><a href="healthbot.html"> <span data-hover="healthbot">healthbot</span></a></li>
+					<li><a href="contact.html"> <span data-hover="Contact">Contact</span></a></li>
+				</ul>
+				
+	
+	<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+	<!--//smooth-scrolling-of-move-up-->
+	<!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="js/bootstrap.js"> </script>
+    <h1 class="welcome-heading">Welcome to our Health Bot!</h1>
+    <center>
+        <a class="nav-link" href="QnA bot.html"><p style="color:red">Refresh</p></a>
+  
+    </center>
+  <div class="chat-container">
+    <iframe src='https://webchat.botframework.com/embed/heathbot-g6oznlj?s=3BUgWKWpB2s.CeoYbTrp0eYgFIeS0ekklJ0ztru8qF1wm3-3VlpTrPE'  style='min-width: 400px; width: 100%; min-height: 500px;'></iframe>
+
+  </div>
+</body>
+</html>
