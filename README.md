@@ -12,7 +12,7 @@ project link: https://lively-sky-091e5d310.3.azurestaticapps.net
 # Features and Functionalities :
 1. Iteractive and responsive UI
 2. Has many graphical and visual innovative effacts
-3. Has collection of 4 pages including Health bot
+3. Has collection of 5 pages including Health bot
 4. Has an aesthetically pleasing visual design and architecture
 # Screenshots from Azure:
 Health bot:
